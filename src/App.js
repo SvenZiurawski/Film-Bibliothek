@@ -123,7 +123,6 @@ class App extends React.Component {
             <option value="clear">Sortieren nach</option>
             <option value="vote_average">Bewertung</option>
             <option value="release_date">Jahrgang</option>
-            <option value="actor">Schauspieler</option>
           </select>
         </form>
         <div className="grid">
@@ -147,7 +146,7 @@ class App extends React.Component {
           <Loader />
         ) : (
           <button className="load-more" onClick={this.loadMovies}>
-            Load More
+            Lade Mehr
           </button>
         )}
         <CSSTransition
